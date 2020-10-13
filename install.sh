@@ -1,6 +1,9 @@
 #!/bin/bash
 set -u
 
+echo "My Github commit-id url hack scamming test"
+exit 0
+
 # First check if the OS is Linux.
 if [[ "$(uname)" = "Linux" ]]; then
   HOMEBREW_ON_LINUX=1
